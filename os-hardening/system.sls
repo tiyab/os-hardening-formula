@@ -72,3 +72,6 @@ kernel.yama.ptrace_scope:
   sysctl.present:
     - value: 1
 
+kernel.dmesg_restrict:
+  sysctl.present:
+    - value: 1
