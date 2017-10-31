@@ -4,4 +4,4 @@ include:
   - os-hardening.limits
   - os-hardening.network
   - os-hardening.system
-  - os-hardening.minimal_access
+  #- os-hardening.minimal_access
