@@ -75,3 +75,7 @@ kernel.yama.ptrace_scope:
 kernel.dmesg_restrict:
   sysctl.present:
     - value: 1
+
+vm.swappiness
+  sysctl.present:
+    - value: 20
